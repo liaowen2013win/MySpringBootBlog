@@ -179,6 +179,6 @@ CREATE TABLE `t_users`  (
 -- ----------------------------
 -- Records of t_users
 -- ----------------------------
-INSERT INTO `t_users` VALUES (1, 'admin', 'a66abb5684c45962d887564f08346e8d', '864655735@qq.com', NULL, 'admin', 1490756162, 0, 0, 'visitor');
+INSERT INTO `t_users` VALUES (1, 'admin', 'a66abb5684c45962d887564f08346e8d', 'liaowen2013win@163.com', NULL, 'admin', 1490756162, 0, 0, 'visitor');
 
 SET FOREIGN_KEY_CHECKS = 1;

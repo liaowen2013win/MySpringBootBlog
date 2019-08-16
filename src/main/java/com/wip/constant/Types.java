@@ -4,7 +4,7 @@ import com.wip.model.ContentDomain;
 
 /**
  * Created by IntelliJ IDEA.
- * User: Kyrie
+ * User: L.Wen
  * DateTime: 2018/7/23 10:57
  **/
 public enum Types {

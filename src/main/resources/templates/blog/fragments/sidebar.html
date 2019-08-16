@@ -7,8 +7,8 @@
         <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
             <div class="site-overview" style="max-height: 585px;">
                 <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-                    <img class="site-author-image" itemprop="image" th:src="@{/blog/image/kyrie.jpg}" alt="Kyrie">
-                    <p class="site-author-name" itemprop="name">Kyrie</p>
+                    <img class="site-author-image" itemprop="image" th:src="@{/blog/image/LwenBlog.jpg}" alt="L.Wen">
+                    <p class="site-author-name" itemprop="name">L.Wen</p>
                     <p class="site-description motion-element" itemprop="description">关注情境</p>
                 </div>
                 <nav class="site-state motion-element">
@@ -60,7 +60,7 @@
 
                                 <th:block th:case="'jianshu'">
                                     <span class="links-of-author-item">
-                                        <a th:href="@{${index.value}}" target="_blank" title="知乎">
+                                        <a th:href="@{${index.value}}" target="_blank" title="简书">
                                             <i class="fa fa-fw fa-google"></i>简书
                                         </a>
                                     </span>
@@ -68,7 +68,7 @@
 
                                 <th:block th:case="'csdn'">
                                     <span class="links-of-author-item">
-                                        <a th:href="@{${index.value}}" target="_blank" title="知乎">
+                                        <a th:href="@{${index.value}}" target="_blank" title="CSDN">
                                             <i class="fa fa-fw fa-chrome"></i>CSDN
                                         </a>
                                     </span>
@@ -76,8 +76,8 @@
 
                                 <th:block th:case="'resume'">
                                     <span class="links-of-author-item">
-                                        <a th:href="@{${index.value}}" target="_blank" title="知乎">
-                                            <i class="fa fa-fw fa-globe"></i>简历
+                                        <a th:href="@{${index.value}}" target="_blank" title="博客园">
+                                            <i class="fa fa-fw fa-globe"></i>博客园
                                         </a>
                                     </span>
                                 </th:block>
