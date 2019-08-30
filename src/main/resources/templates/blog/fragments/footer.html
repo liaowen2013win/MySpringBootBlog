@@ -3,8 +3,11 @@
 <body>
 <footer id="footer" class="footer" th:fragment="footer(record)">
     <div class="footer-inner">
+        <audio controls="controls" autoplay="autoplay" loop="loop" preload="auto">
+            <source src="ShiJin-Happy_Hour.mp3" type="audio/mpeg">
+        </audio>
         <div class="copyright">
-            © 2017 - <span>2018</span> <span class="with-love">
+            © 2018 - <span>2019</span> <span class="with-love">
                 <i class="fa fa-heart"></i></span> <span class="author">L.Wen</span>
         </div>
 
@@ -13,7 +16,7 @@
         </div>
 
         <div class="theme-info">
-            源码 - <a class="theme-link" target="_blank" href="https://github.com/L.Wen/SpringBootBlog"> L.Wen's Blog </a>
+            源码 - <a class="theme-link" target="_blank" href="https://github.com/liaowen2013win"> L.Wen's Blog </a>
         </div>
         <div>
             <th:block th:if="${record != null and record != ''}">
